@@ -8,7 +8,7 @@ public class InsightsController {
 
 
 
-    @GetMapping("/welcome")
+    @GetMapping("/")
     public String hello()
     {
         return "Hello azure portal";
